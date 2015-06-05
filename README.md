@@ -8,9 +8,15 @@ Install this add-on in your splunk forwarder. Write details of your MongoDB in f
 "server":"server_name", 
 
  "port":"27017", 
+ 
   "database" : "database_name",
+  
  "collection" : "collection_name",
+ 
  "user": "user_name",
+ 
  "password" : "passwd"
 
-run script setup.py. 
+Setup
+================
+Run script setup.py, this script setup your configuration.
