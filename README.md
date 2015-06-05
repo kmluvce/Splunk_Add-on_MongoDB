@@ -26,3 +26,5 @@ Run script setup.py, this script setup your configuration.
 Other Information
 =================
 * You need to change timestamp format if it is diffrent than timestamp format in mongodb_script.py
+* Currently it supports single database and collection in MongoDB
+* It supports Python 2.* version
