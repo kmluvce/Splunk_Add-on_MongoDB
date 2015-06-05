@@ -11,17 +11,17 @@ from bson.objectid import ObjectId
 
 
 last_id = 0
-config_file = '/MongoDB_Splunk_app/bin/config.json'
+config_file = '/etc/apps/MongoDB_Splunk_app/bin/config.json'
 
 def get_config(config_file_name):
-    config = open(os.environ['HOME'] + config_file_name).read()
+    config = open(os.environ['SPLUNK_HOME'] + config_file_name).read()
     data = json.loads(config)
     database=data["database"]
     collection = data["collection"]
     return (data)
 
 def check_file(config_file_name):
-    last_id_filepath = os.environ['HOME'] + "/MongoDB_Splunk_app/bin/last_id" # user supplies correct path
+    last_id_filepath = os.environ['SPLUNK_HOME'] + "/etc/apps/MongoDB_Splunk_app/bin/last_id" # user supplies correct path
 
 # Open file containing the last ID and get the last record read
     if os.path.isfile(last_id_filepath):
