@@ -5,7 +5,12 @@ How to Install
 ===============
 Install PyMongo module https://pypi.python.org/pypi/pymongo/.
 
-Install this add-on in your splunk forwarder. Write details of your MongoDB in file config.json
+Install this add-on in your splunk forwarder.
+
+
+Setup
+================
+Write details of your MongoDB database in file config.json
 
 "server":"server_name", 
 
@@ -18,10 +23,6 @@ Install this add-on in your splunk forwarder. Write details of your MongoDB in f
  "user": "user_name",
  
  "password" : "passwd"
-
-
-Setup
-================
 Run script setup.py, this script setup your configuration.
 
 Other Information
