@@ -4,7 +4,7 @@ This Splunk add-on for MongoDB is used to fetch data from MongoDB database and s
 How to Install
 ===============
 Install this add-on in your splunk forwarder. Write details of your MongoDB in file config.json
-
+-----------------------------------------------
 "server":"server_name", 
 
  "port":"27017", 
@@ -16,6 +16,7 @@ Install this add-on in your splunk forwarder. Write details of your MongoDB in f
  "user": "user_name",
  
  "password" : "passwd"
+----------------------------------------------------------
 
 You need to install PyMongo module.
 
