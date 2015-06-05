@@ -1,0 +1,9 @@
+{
+ "server":"server_name", 
+ "port":"27017", 
+  "database" : "database_name",
+ "collection" : "collection_name",
+ "user": "user_name",
+ "password" : "passwd"
+}
+
