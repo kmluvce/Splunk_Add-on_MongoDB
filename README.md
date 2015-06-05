@@ -1,5 +1,5 @@
 # Splunk_Add-on_MongoDB
-This Splunk add-on for MongoDB is used to fetch data from MongoDB database and send data to Splunk. This is a quick solution to analyze MongoDB database in splunk. All code is written in python and you also need to install pymongo module.
+This Splunk add-on for MongoDB is used to fetch data from MongoDB database and send data to Splunk. This is a quick solution to analyze data in MongoDB database in splunk. All code is written in python and you also need to install pymongo module.
 
 How to Install
 ===============
