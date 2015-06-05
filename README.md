@@ -6,6 +6,7 @@ How to Install
 Install this add-on in your splunk forwarder. Write details of your MongoDB in file config.json
 
 "server":"server_name", 
+
  "port":"27017", 
   "database" : "database_name",
  "collection" : "collection_name",
