@@ -23,6 +23,7 @@ Write details of your MongoDB database in file config.json
  "user": "user_name",
  
  "password" : "passwd"
+ 
 Run script setup.py, this script setup your configuration.
 
 Other Information
